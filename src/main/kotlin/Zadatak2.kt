@@ -1,5 +1,5 @@
 fun main(){
-    printNumbers(9, 19)
+    printNumbers(20, 20)
 }
 fun printNumbers(num1: Int, num2: Int){
     if (num1 < num2){
@@ -11,6 +11,6 @@ fun printNumbers(num1: Int, num2: Int){
             println(i)
         }
     } else {
-        println("Numbers are equal")
+        println(num1)
     }
 }

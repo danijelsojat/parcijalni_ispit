@@ -1,11 +1,6 @@
 fun main(){
 
-    var myArr: Array<Int> = arrayOf()
-    for (i in 1..200){
-        if (i % 2 == 0){
-            myArr += i
-        }
-    }
+    val myArr = Array<Int>(100){(it + 1) * 2}
     println("Zbroj svih elemenata polja: ${myArr.sum()}")
     println("Srednja vrijednost polja: ${myArr.average()}")
 }
